@@ -1,0 +1,28 @@
+.main-header {
+  background-image: url(../../images/header-banner.jpg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-color: rgb(53 51 52 / 70%);
+  background-blend-mode: multiply;
+}
+.main-header h1 {
+  color: #fff;
+  font-weight: 800;
+  font-size: 55px;
+  letter-spacing: 5px;
+}
+.header-title {
+  display: flex;
+  align-items: center;
+  min-height: 200px;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 575px) {
+  .main-header h1 {
+    font-size: 42px;
+  }
+}

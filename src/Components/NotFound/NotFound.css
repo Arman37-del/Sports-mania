@@ -1,0 +1,28 @@
+.not-found-container {
+    background-image: linear-gradient(to left,  #3b1c79, #c56f13);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+.not-found-content h1 {
+    font-size: 160px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.back {
+    text-decoration: none;
+    text-decoration: none;
+    color: white;
+    background:crimson;
+    padding: 15px 25px;
+    font-size: 20px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.back:hover {
+    text-decoration: none;
+    color: #333;
+}

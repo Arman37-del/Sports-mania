@@ -1,0 +1,28 @@
+.social-icon {
+    text-align: center;
+    margin: 40px 0;
+}
+.social-icon a {
+    color: #333;
+    padding: 15px;
+    font-size: 35px;
+}
+.social-icon a .fa-facebook {
+    color: #1a45a2;
+}
+.social-icon a .fa-twitter {
+    color: #0777a3;
+}
+.social-icon a .fa-youtube {
+    color: #b6211c;
+}
+.social-icon a .fa-instagram {
+    color: #885a11;
+}
+
+@media only screen and (max-width: 570px) {
+    .social-icon a {
+        padding: 10px;
+        font-size: 30px;
+    }
+}

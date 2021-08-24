@@ -1,0 +1,17 @@
+main.main-section {
+  background-image: linear-gradient(to left, #3b1c79, #c56f13);
+}
+
+.main-container {
+  min-height: 500px;
+}
+.loading-spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.main-container .spinner-border {
+  width: 200px;
+  height: 200px;
+}
